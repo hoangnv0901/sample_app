@@ -1,24 +1,41 @@
-# README
+# Ứng dụng mẫu hướng dẫn Ruby on Rails 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Đây là ứng dụng mẫu cho 
+[* Hướng dẫn Ruby on Rails: 
+Tìm hiểu Phát triển Web với Rails *] (http://www.railstutorial.org/) 
+bởi [Michael Hartl] (http: // www .michaelhartl.com /). 
 
-Things you may want to cover:
+## Giấy phép 
 
-* Ruby version
+Tất cả mã nguồn trong [Hướng dẫn Ruby on Rails] (http://railstutorial.org/) 
+đều có sẵn theo Giấy phép MIT và Giấy phép Bia. Xem 
+[LICENSE.md] (LICENSE.md) để biết chi tiết. 
 
-* System dependencies
+## Bắt đầu 
 
-* Configuration
+Để bắt đầu với ứng dụng, hãy sao chép repo và sau đó cài đặt các gem cần thiết: 
 
-* Database creation
+`` ` 
+$ bundle install - không có sản xuất` 
+`` 
 
-* Database initialization
+Tiếp theo, di chuyển cơ sở dữ liệu: 
 
-* How to run the test suite
+`` ` 
+$ rails db: migrate` 
+` `
 
-* Services (job queues, cache servers, search engines, etc.)
+Cuối cùng, chạy bộ kiểm tra để xác minh rằng tất cả mọi thứ đang làm việc một cách chính xác: 
 
-* Deployment instructions
+`` ` 
+$ ray kiểm tra 
+` `` 
 
-* ...
+Nếu các bộ kiểm tra đi, bạn sẽ sẵn sàng để chạy các ứng dụng trong một máy chủ địa phương: 
+
+`` ` 
+$ ray máy chủ 
+' '' 
+
+Để biết thêm thông tin, xem 
+[* Ruby on Rails Tutorial * sách] (http://www.railstutorial.org/book).
