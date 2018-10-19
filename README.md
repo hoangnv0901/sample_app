@@ -16,25 +16,25 @@ Tất cả mã nguồn trong [Hướng dẫn Ruby on Rails] (http://railstutoria
 Để bắt đầu với ứng dụng, hãy sao chép repo và sau đó cài đặt các gem cần thiết: 
 
 `` ` 
-$ bundle install - không có sản xuất` 
+$ bundle install --without production 
 `` 
 
 Tiếp theo, di chuyển cơ sở dữ liệu: 
 
 `` ` 
-$ rails db: migrate` 
+$  rails db:migrate
 ` `
 
 Cuối cùng, chạy bộ kiểm tra để xác minh rằng tất cả mọi thứ đang làm việc một cách chính xác: 
 
 `` ` 
-$ ray kiểm tra 
+$ rails test 
 ` `` 
 
 Nếu các bộ kiểm tra đi, bạn sẽ sẵn sàng để chạy các ứng dụng trong một máy chủ địa phương: 
 
 `` ` 
-$ ray máy chủ 
+$ rails server
 ' '' 
 
 Để biết thêm thông tin, xem 
