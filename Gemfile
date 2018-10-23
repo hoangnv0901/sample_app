@@ -40,6 +40,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem 'mysql2'
 end
 
 group :development do
@@ -48,6 +49,7 @@ group :development do
   gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'mysql2'
 end
 
 group :test do
@@ -56,6 +58,7 @@ group :test do
   gem 'minitest-reporters'
   gem 'guard'
   gem 'guard-minitest'
+  gem 'mysql2'
 end
 
 group :production do
