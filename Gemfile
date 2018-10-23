@@ -10,7 +10,8 @@ end
 gem 'rails', '~> 5.0.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-gem  'bootstrap-sass' ,  '3.3.7' 
+gem  'bcrypt' ,          '3.1.12'
+gem  'bootstrap-sass' ,  '3.3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -59,7 +60,7 @@ end
 
 group :production do
   # gem pg là gem hỗ trợ trên heroku of product
-  gem 'pg' 
+  gem 'pg'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
