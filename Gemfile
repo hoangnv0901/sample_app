@@ -50,6 +50,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'mysql2'
+  gem 'byebug'
 end
 
 group :test do
@@ -59,6 +60,7 @@ group :test do
   gem 'guard'
   gem 'guard-minitest'
   gem 'mysql2'
+  gem 'byebug'
 end
 
 group :production do
